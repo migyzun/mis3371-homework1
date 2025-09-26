@@ -14,13 +14,13 @@ Description: CSS for index.html
 }
 
 body {
-    background-color: #e0f7fa;
+    background-color: #E5E7EB; /* light gray */
     text-align: center;
     padding: 20px;
 }
 
 main {
-    background-color: #ffffff;
+    background-color: #FFFFFF; /* white */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -42,13 +42,13 @@ header {
 
 h1 {
     font-size: 28px;
-    color: #00796b;
+    color: #1E3A5F; /* navy */
     margin-bottom: 10px;
 }
 
 header p {
     font-size: 16px;
-    color: #004d40;
+    color: #0A192F; /* dark blue */
 }
 
 table {
@@ -60,7 +60,7 @@ table {
 label {
     display: block;
     margin-bottom: 8px;
-    color: #004d40;
+    color: #0A192F; /* dark blue */
     font-weight: bold;
     text-align: left;
 }
@@ -73,7 +73,7 @@ select {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #b2dfdb;
+    border: 1px solid #A7F3D0; /* mint green */
     border-radius: 4px;
     font-size: 14px;
 }
@@ -83,7 +83,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus,
 select:focus {
-    border-color: #00796b;
+    border-color: #10B981; /* emerald green */
     outline: none;
 }
 
@@ -117,7 +117,7 @@ input[type="checkbox"] {
     display: block;
     margin-top: 10px;
     font-weight: bold;
-    color: #00796b;
+    color: #10B981; /* emerald green */
 }
 
 .buttons {
@@ -136,20 +136,26 @@ input[type="submit"] {
 }
 
 input[type="reset"] {
-    background-color: #e57373;
+    background-color: #3B82F6; /* blue */
     color: #fff;
     margin-right: 10px;
 }
+input[type="reset"]:hover {
+    background-color: #1E3A5F; /* navy */
+}
 
 input[type="submit"] {
-    background-color: #00796b;
+    background-color: #10B981; /* emerald green */
     color: #fff;
+}
+input[type="submit"]:hover {
+    background-color: #0A192F; /* dark blue */
 }
 
 footer {
     text-align: center;
     margin-top: 30px;
-    color: #004d40;
+    color: #0A192F; /* dark blue */
 }
 
 #footer-logo {
@@ -161,7 +167,7 @@ footer {
 .form th {
     text-align: center;
     font-size: 24px;
-    color: #00796b;
+    color: #1E3A5F; /* navy */
     padding-bottom: 20px;
 }
 
@@ -192,12 +198,12 @@ td {
 
 #reviewArea .outputdata {
     font-style: italic;
-    color: #555;
-    background-color: #e0f7fa;
+    color: #0A192F; /* dark blue */
+    background-color: #A7F3D0; /* mint green */
 }
 
 .error-message {
-    color: red;
+    color: #3B82F6; /* blue */
     font-size: 0.8em;
     display: block;
     margin-top: 5px;
