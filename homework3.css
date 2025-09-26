@@ -1,0 +1,204 @@
+/*
+Program name: homework3.css
+Name: Lam Dang
+Date Created: 04/01/2025
+Date Last Edited: 04/04/2025
+Version: 1.0
+Description: CSS for homework3.html 
+ */
+
+* {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0f7fa;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 90px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #004d40;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #004d40;
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #b2dfdb;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #00796b;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+select {
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.slider {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#slider {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#pain-value {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #00796b;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="reset"] {
+    background-color: #e57373;
+    color: #fff;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #00796b;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #004d40;
+}
+
+#footer-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.form th {
+    text-align: center;
+    font-size: 24px;
+    color: #00796b;
+    padding-bottom: 20px;
+}
+
+.state-zip-group {
+    display: inline-block;
+    width: 100%;
+}
+
+.state-zip-group select,
+.state-zip-group input {
+    width: 48%;
+    margin: 0 1%;
+}
+
+td {
+    padding: 10px;
+}
+
+.thankyou {
+    align-items: center;
+    font-size: 30px;
+}
+
+#reviewArea {
+    padding: 50px;
+    margin-top: 50px;
+}
+
+#reviewArea .outputdata {
+    font-style: italic;
+    color: #555;
+    background-color: #e0f7fa;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    display: block;
+    margin-top: 5px;
+}
