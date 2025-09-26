@@ -17,8 +17,8 @@ Description: CSS for patient-form.html and thank-you.html
 
 /* Body styling */
 body {
-    background-color: #2E7D68; /* Dark Green */
-    color: #ECEFF1; /* Off-White Gray */
+    background-color: #dddddd; /* neutral page bg */
+    color: #003e7f; /* readable navy text */
     padding: 20px;
     line-height: 1.6;
 }
@@ -56,14 +56,14 @@ body {
 
 h1 {
     font-size: 32px;
-    color: #004D40; /* Deep Teal */
+    color: #003e7f; /* headings in navy */
     margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #top p {
     font-size: 18px;
-    color: #A7FFEB; /* Light Mint */
+    color: #0068af; /* header subtext accent */
     font-weight: bold;
 }
 
@@ -92,7 +92,7 @@ main {
 .form th {
     text-align: center;
     font-size: 28px;
-    color: #004D40; /* Deep Teal */
+    color: #003e7f; /* section title */
     padding-bottom: 25px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -111,7 +111,7 @@ td {
 
 /* Label styling */
 label {
-    color: #A7FFEB; /* Light Mint */
+    color: #0068af; /* label accent */
     font-weight: bold;
     font-size: 16px;
 }
@@ -127,7 +127,7 @@ select {
     max-width: 300px;
     padding: 10px 12px;
     margin-bottom: 8px;
-    border: 2px solid #00695C; /* Dark Aqua */
+    border: 2px solid #5495e1; /* calm blue borders */
     border-radius: 6px;
     font-size: 14px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
@@ -139,7 +139,7 @@ input[type="email"]:focus,
 input[type="date"]:focus,
 textarea:focus,
 select:focus {
-    border-color: #1B5E20; /* Forest Green */
+    border-color: #008239; /* focus green */
     outline: none;
     box-shadow: 0 0 8px rgba(27, 94, 32, 0.3);
 }
@@ -172,16 +172,16 @@ input[type="checkbox"] + label {
 
 /* Fieldset styling */
 fieldset {
-    border: 2px solid #00695C; /* Dark Aqua */
+    border: 2px solid #5495e1; /* match inputs */
     border-radius: 8px;
     padding: 15px;
     margin: 10px 0;
-    background-color: #33691E; /* Muted Olive */
+    background-color: #dddddd; /* soft neutral fill */
 }
 
 legend {
     font-weight: bold;
-    color: #004D40; /* Deep Teal */
+    color: #003e7f; /* legend title */
     font-size: 16px;
     padding: 0 10px;
 }
@@ -207,7 +207,7 @@ legend {
     margin: 10px;
     height: 8px;
     border-radius: 5px;
-    background: #00695C; /* Dark Aqua */
+    background: #5495e1; /* track */
     appearance: none;
 }
 
@@ -216,7 +216,7 @@ legend {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #A7FFEB; /* Light Mint */
+    background: #44a75e; /* thumb */
     cursor: pointer;
 }
 
@@ -224,7 +224,7 @@ legend {
     display: inline-block;
     margin-top: 10px;
     font-weight: bold;
-    color: #ECEFF1; /* Off-White */
+    color: #003e7f; /* value text */
     font-size: 18px;
 }
 
@@ -248,30 +248,30 @@ input[type="submit"] {
 }
 
 input[type="reset"] {
-    background-color: #1B5E20; /* Forest Green */
+    background-color: #44a75e; /* secondary action */
     color: #ffffff;
 }
 
 input[type="reset"]:hover {
-    background-color: #33691E; /* Muted Olive */
+    background-color: #008239; /* darker hover */
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 input[type="submit"] {
-    background-color: #004D40; /* Deep Teal */
+    background-color: #008239; /* primary action */
     color: #ffffff;
 }
 
 input[type="submit"]:hover {
-    background-color: #2E7D68; /* Dark Green */
+    background-color: #00540e; /* deepest hover */
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Error message styling */
 .error-message {
-    color: #A7FFEB; /* Light Mint */
+    color: #0068af; /* readable notice */
     font-size: 12px;
     display: block;
     margin-top: 5px;
@@ -282,7 +282,7 @@ input[type="submit"]:hover {
 hr {
     border: none;
     height: 2px;
-    background: linear-gradient(to right, #00695C, #004D40, #00695C);
+    background: linear-gradient(to right, #5495e1, #003e7f, #5495e1);
     margin: 20px 0;
 }
 
@@ -293,7 +293,7 @@ hr {
 }
 
 footer {
-    color: #A7FFEB; /* Light Mint */
+    color: #0068af; /* footer text */
     font-size: 14px;
 }
 
@@ -302,18 +302,18 @@ footer p {
 }
 
 footer a {
-    color: #ECEFF1; /* Off-White */
+    color: #003e7f; /* footer link */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 footer a:hover {
-    color: #A7FFEB; /* Light Mint */
+    color: #0068af; /* footer link hover */
     text-decoration: underline;
 }
 
 footer button {
-    background-color: #1B5E20; /* Forest Green */
+    background-color: #008239; /* footer button */
     color: #ffffff;
     border: none;
     padding: 8px 16px;
@@ -324,7 +324,7 @@ footer button {
 }
 
 footer button:hover {
-    background-color: #33691E; /* Muted Olive */
+    background-color: #00540e; /* hover */
 }
 
 #footer-logo {
@@ -337,7 +337,7 @@ footer button:hover {
 /* Thank you page specific styles */
 .thankyou {
     font-size: 32px;
-    color: #ECEFF1; /* Off-White */
+    color: #003e7f; /* headline */
     text-align: center;
     margin: 40px 0;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
@@ -389,5 +389,3 @@ End of style.css
 Author: Jose Miguel Zuniga  
 Description: Complete styling for patient registration form
 */
-
-
