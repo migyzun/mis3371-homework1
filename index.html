@@ -6,6 +6,7 @@ Date Last Edited: 09/26/2025
 Version: 1.0
 Description: This is a form that will collect the users information and use it to create a profile
 -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,23 +14,23 @@ Description: This is a form that will collect the users information and use it t
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="homework1.css" rel="stylesheet">
+    <link href="homework3.css" rel="stylesheet">
     <title>Homework 1 - HTML Form</title>
 </head>
 <body>
         <tr>
-                <!-- logoz -->
+                <!-- logo -->
                 <td>
                 <img id="logo" src="../../logo.jpg" alt= "company logo" />         
                 </td>
                 <td valign="bottom" align="right">
 
                 <h1>Divine Health Clinic</h1>
-                <!-- Today's Datez -->
+                <!-- Today's Date -->
                 <center>
                 <p>Today is: <span id="currentDate"></span></p>
                     <p id="date"></p>
-                         <!-- JavaScript for displaying dynamic datez -->
+                         <!-- JavaScript for displaying dynamic date -->
                              <script>
                                 const dateElement = document.getElementById('date');
                                 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -42,12 +43,12 @@ Description: This is a form that will collect the users information and use it t
    
         <main>
             <table>              
-                <form action="homework1-thankyou.html">
+                <form action="homework3-thankyou.html">
                     <div class="format">
                     <tr class="form">
                     <th class="form" colspan="3">Patient Form</th>
                     </tr>
-                        <!-- Usernamez -->
+                        <!-- Username -->
                             <tr>
                                 <td class="table"><label for="userID">Username:</label></td>
                                 <td><input
@@ -60,7 +61,7 @@ Description: This is a form that will collect the users information and use it t
                                 <span class="error-message" id="userIDError"></span>
                                 </td>
                             </tr>
-                        <!-- Passwordz -->
+                        <!-- Password -->
                             <tr>
                                 <td class="table"><label for="password">Password:</label></td>
                                 <td><input
@@ -74,7 +75,7 @@ Description: This is a form that will collect the users information and use it t
                                 <span class="error-message" id="passwordError"></span>
                                 </td>
                             </tr>
-                        <!-- Re-enter Passwordz -->
+                        <!-- Re-enter Password -->
                             <tr>
                                 <td class="table"><label for="re_password">Re-enter Password: </label></td>
                                 <td>
@@ -95,7 +96,7 @@ Description: This is a form that will collect the users information and use it t
                             </tr>
 
 
-                        <!-- First Namez -->
+                        <!-- First Name -->
                             <tr>
                                 <td class="table"><label for="firstName">First Name:</label></td>
                                 <td><input
@@ -110,7 +111,7 @@ Description: This is a form that will collect the users information and use it t
                                 <span class="error-message" id="firstNameError"></span>
                                 </td>
                             </tr>
-                        <!-- Middle Initialz -->
+                        <!-- Middle Initial -->
                             <tr>
                                 <td class="table"><label for="middleInitial">Middle Initial:</label></td>
                                 <td><input
@@ -125,7 +126,7 @@ Description: This is a form that will collect the users information and use it t
                                 <span class ="error-message" id="middleInitialError"></span>
                                 </td>
                             </tr>
-                        <!-- Last Namez -->
+                        <!-- Last Name -->
                             <tr>
                                 <td class="table"><label for="lastName">Last Name:</label></td>
                                 <td><input
@@ -144,7 +145,7 @@ Description: This is a form that will collect the users information and use it t
                                 <span class="error-message" id="lastNameError"></span>
                                 </td>
                             </tr>
-                        <!-- Date of Birthz -->
+                        <!-- Date of Birth -->
                             <tr>
                                 <td class="table"><label for="dateOfBirth">Date of Birth:</label></td>
                                 <td><input
@@ -159,7 +160,7 @@ Description: This is a form that will collect the users information and use it t
                                 <span class="error-message" id="dob-error"></span>
                                 </td>
                             </tr>
-                        <!-- Social Securityz -->
+                        <!-- Social Security -->
                             <tr>
                                 <td class="table"><label for="ssn">SSN:</label></td>
                                 <td><input
@@ -179,7 +180,7 @@ Description: This is a form that will collect the users information and use it t
                             <tr>
                                 <td colspan="2"><hr></td>
                             </tr>
-                        <!-- Addressz -->
+                        <!-- Address -->
                             <tr>
                                 <td class="table"><label for="address1">Address 1:</label></td>
                                 <td><input
@@ -197,7 +198,7 @@ Description: This is a form that will collect the users information and use it t
                                 <span class="error-message" id="addressError"></span>
                                 </td>
                             </tr>
-                        <!-- Address 2 (optional)z -->
+                        <!-- Address 2 (optional) -->
                         <tr>
                             <td class="table"><label for="address2">Address 2:</label></td>
                             <td>
@@ -216,7 +217,7 @@ Description: This is a form that will collect the users information and use it t
                         </tr>
                         <tr class="address-group">
 
-                        <!-- Cityz -->
+                        <!-- City -->
                             <td class="table"><label for="city">City:</label></td>
                             <td><input
                                 type="text"
@@ -232,7 +233,7 @@ Description: This is a form that will collect the users information and use it t
                                 required>
                                 <span class="error-message" id="cityError"></span>
                             </td>
-                        <!-- Statez -->
+                        <!-- State -->
                             <td class="table"><label for="state">State:</label></td>
                             <td>
                             <select id="state" name="state" required>
@@ -289,7 +290,7 @@ Description: This is a form that will collect the users information and use it t
                             </td>
 
 
-                        <!-- Zip Codez -->
+                        <!-- Zip Code -->
                             <td class="table"><label for="zipCode">Zip Code:</label></td>
                             <td><input
                                 type="text"
@@ -313,7 +314,7 @@ Description: This is a form that will collect the users information and use it t
                             <td colspan="2"><hr></td>
                             </tr>
 
-                            <!-- Email Addressz -->
+                            <!-- Email Address -->
                         <tr>
                             <td class="table"><label for="email">Email:</label></td>
                             <td>
@@ -332,7 +333,7 @@ Description: This is a form that will collect the users information and use it t
                             </td>
                         </tr>
 
-                        <!-- Phone Numberz -->
+                        <!-- Phone Number -->
                         <tr>
                             <td class="table"><label for="phone">Phone #:</label></td>
                             <td>
@@ -356,7 +357,7 @@ Description: This is a form that will collect the users information and use it t
                         </tr>
 
                         <!-- Radio Buttons -->
-                        <!-- Genderz -->
+                        <!-- Gender -->
                             </tr>
                                 <td class="table"><label id="gender">Gender:</label>
                                 <td>
@@ -367,7 +368,7 @@ Description: This is a form that will collect the users information and use it t
                                 <input type="radio" name="msex" value="Other">
                                 <span>Other</span>
                             </tr>
-                        <!-- Marital Statusz -->
+                        <!-- Marital Status -->
                             </tr>
                                 <td class="table"><label id="marital">What is your marital status?</label>
                                 <td><input type="radio" name="marital_status" value="Single">
@@ -377,7 +378,7 @@ Description: This is a form that will collect the users information and use it t
                                 <input type="radio" name="marital_status" value="Divorced">
                                 <span>Divorced</span>
                             </tr>
-                        <!-- Insurancez -->
+                        <!-- Insurance -->
                             </tr>
                                 <td class="table"><label id="insurance">Do you have insurance?</label>
                                 <td><input type="radio" name="insurance" value="Yes">
@@ -387,7 +388,7 @@ Description: This is a form that will collect the users information and use it t
                                 <input type="radio" name="insurance" value="Unsure">
                                 <span>Unsure</span>
                             </tr>
-                        <!-- Enter Reason for Visitationz -->
+                        <!-- Enter Reason for Visitation -->
                          <tr>
                                 <td class="table"><label for="description"> What is your reasoning for visiting us today? </label></td>
                                 <td><textarea
@@ -398,7 +399,7 @@ Description: This is a form that will collect the users information and use it t
                                     pattern="^[^\"\\]*$"
                                     title="Please avoid using double quotes"></textarea></td>
                         </tr>
-                        <!-- Checkboxesz -->
+                        <!-- Checkboxes -->
                             <tr>
                                 <td class="check" colspan="2">
                                     <fieldset>
@@ -413,7 +414,7 @@ Description: This is a form that will collect the users information and use it t
                                     </fieldset>
                                 </td>
                             </tr>
-                        <!-- Pain Scale Sliderz -->
+                        <!-- Pain Scale Slider -->
                                     </fieldset>
                                 </td>
                             </tr>
@@ -462,7 +463,7 @@ Description: This is a form that will collect the users information and use it t
     <footer>
         <div>
             <a href="https://www.uh.edu/">
-                <img id="footer-logo" src="../../logo.jpg" alt="Footer Logo" />
+                <img id="footer-logo" src="../../healthaid.jpg" alt="Footer Logo" />
             </a>
             <p>
                 <a href="mailto:migyzuniga@gmail.com">migyzuniga@gmail.com</a>
@@ -473,7 +474,5 @@ Description: This is a form that will collect the users information and use it t
             <p>9999 Elgin Rd, Houston, TX 77004</p>
         </div>
     </footer>
-
-    <script src="homework1.js"></script>
 
 </body>
