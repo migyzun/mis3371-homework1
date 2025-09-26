@@ -1,0 +1,90 @@
+<!--
+Program name: thank-you.html
+Name: Jose Miguel Zuniga
+Date Created: 09/23/2025
+Date Last Edited: 09/23/2025
+Version: 1.0
+Description: Thank you confirmation page for patient registration form submission
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Complete - Divine Health Clinic</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top -->
+    <div id="top">
+        <table class="header-table">
+            <tr>
+                <td class="logo-cell">
+                    <img id="logo" src="logo.jpg" alt="Divine Health Clinic Logo" />         
+                </td>
+                <td class="header-text">
+                    <h1>Divine Health Clinic</h1>
+                    <p>Today is: <span id="date"></span></p>
+                    <!-- JavaScript For Date -->
+                    <script>
+                        const dateElement = document.getElementById('date');
+                        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                        const today = new Date().toLocaleDateString('en-US', options);
+                        dateElement.textContent = today;
+                    </script>
+                </td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <!-- Middle  -->   
+    <div id="middle">
+        <main>
+            <div class="thankyou">
+                <h2>Thank you for your submission.</h2>
+                <p>We will be contacting you shortly.</p>
+            </div>
+            
+            <div class="form-container">
+                <table class="output">
+                    <tr>
+                        <td align="center">
+                            <!-- Return to Home Page form -->
+                            <form action="patient-form.html">
+                                <input type="submit" value="Return to Registration Form" />
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Bottom  -->
+    <div id="bottom">
+        <hr>
+        <footer>
+            <div>
+                <img id="footer-logo" src="logo.jpg" alt="Footer Logo" />
+                <p>
+                    <a href="mailto:migyzuniga@gmail.com">migyzuniga@gmail.com</a>
+                </p>
+                <p>
+                    <button onclick="alert('Contact form coming soon!')">CONTACT US</button>
+                </p>
+                <p>PO BOX 19991, Pearland TX 77584</p>
+            </div>
+        </footer>
+    </div>
+
+    <!--
+    End of thank-you.html
+    Author: Jose Miguel Zuniga
+    Final edit: 9/23/25 
+    Description: Thank you confirmation page for patient registration
+    -->
+</body>
+</html>
