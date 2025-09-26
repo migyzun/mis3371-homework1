@@ -17,10 +17,6 @@ body {
     background-color: #E5E7EB; /* light gray hex */
     text-align: center;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 main {
@@ -29,6 +25,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
+    text-content: center;
     margin: 0 auto;
     width: 90%;
     max-width: 800px;
@@ -36,6 +33,13 @@ main {
 
 header {
     margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #logo {
